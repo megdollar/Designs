@@ -18,26 +18,22 @@ a:hover {
 }
 
 #mainContent {
-	border-radius: 5px;
-	margin-bottom: 5px;
+	margin: 15px;
 
 }
 .mainImage {
-	height: 400px;
 	padding: 0;
 
 }
-.megan{
-	margin-right: 0;
-}
+
 .aboutMe {
-	height: 405px;
 	border: 2px solid #ff3b3f;
 	border-radius: 5px;
+	background-color: #efefef;
 
 }
 .introduction{
-	color: #a9a9a9;
+	color: #ff3b3f;
 	font-size: 16px;
 }
 .templateDesign {
@@ -59,4 +55,26 @@ footer {
 	border-radius: 5px;
 
 
+}
+@media screen and (max-width: 767px){
+	.megan{
+		margin: 0 auto;
+	}
+	.aboutMe {
+		margin-top: 15px;
+		max-height: 350px;
+	}
+	.footerCopy {
+		display: none;
+	}
+}
+
+@media screen and (min-width: 768px) and (max-width: 909px){
+	.megan{
+		height: 75%;
+	}
+	.aboutMe{
+		margin-left: 15px;
+		max-width: 64%;
+	}
 }
