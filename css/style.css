@@ -1,0 +1,47 @@
+.navbar {
+	background-color: #caebf2;
+	margin-bottom: 5px;
+}
+a {
+	text-decoration: none;
+	color: #333;
+}
+a:hover {
+	color: #ff3b3f;
+}
+.jumbotron{
+	border-radius: 5px;
+	margin-bottom: 20px;
+}
+.tagline {
+	color: #ff3b3f;
+}
+
+#mainContent {
+	border-radius: 5px;
+	margin-bottom: 5px;
+
+}
+.introduction{
+	color: #a9a9a9;
+}
+.templateDesign {
+	margin-top: 0;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	background-color: #caebf2;
+	border-radius: 5px;
+	color: #a9a9a9;
+}
+.tempName {
+	color: #ff3b3f;
+}
+
+footer {
+	background-color: #caebf2;
+	padding-top: 20px;
+	padding-bottom: 15px;
+	border-radius: 5px;
+
+
+}
