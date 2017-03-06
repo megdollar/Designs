@@ -9,6 +9,10 @@ a {
 a:hover {
 	color: #ff3b3f;
 }
+a:active {
+	background-color: #efefef;
+}
+
 .jumbotron{
 	border-radius: 5px;
 	margin-bottom: 20px;
@@ -27,9 +31,8 @@ a:hover {
 }
 
 .aboutMe {
-	border: 2px solid #ff3b3f;
+	border: 2px solid #caebf2;
 	border-radius: 5px;
-	background-color: #efefef;
 
 }
 .introduction{
