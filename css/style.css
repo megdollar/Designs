@@ -22,8 +22,23 @@ a:hover {
 	margin-bottom: 5px;
 
 }
+.mainImage {
+	height: 400px;
+	padding: 0;
+
+}
+.megan{
+	margin-right: 0;
+}
+.aboutMe {
+	height: 405px;
+	border: 2px solid #ff3b3f;
+	border-radius: 5px;
+
+}
 .introduction{
 	color: #a9a9a9;
+	font-size: 16px;
 }
 .templateDesign {
 	margin-top: 0;
