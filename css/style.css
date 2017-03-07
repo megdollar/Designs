@@ -16,13 +16,20 @@ a:active {
 .jumbotron{
 	border-radius: 5px;
 	margin-bottom: 20px;
+
 }
+
 .tagline {
 	color: #ff3b3f;
 }
 
 #mainContent {
 	margin: 15px;
+	background:url(texture.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	  -moz-background-size: cover;
+	  -o-background-size: cover;
+	  background-size: cover;
 
 }
 .mainImage {
@@ -31,7 +38,7 @@ a:active {
 }
 
 .aboutMe {
-	border: 2px solid #caebf2;
+	border: 3px solid #caebf2;
 	border-radius: 5px;
 
 }
@@ -41,6 +48,8 @@ a:active {
 
 .contentIntro {
 	font-size: 1em;
+	font-weight: 500;
+
 }
 .templateDesign {
 	margin-top: 0;
@@ -59,8 +68,10 @@ footer {
 	padding-top: 20px;
 	padding-bottom: 15px;
 	border-radius: 5px;
+}
 
-
+footer a {
+	padding-right: 10px;
 }
 @media screen and (max-width: 767px){
 	.megan{
@@ -75,12 +86,17 @@ footer {
 	}
 }
 
-@media screen and (min-width: 768px) and (max-width: 909px){
+@media screen and (min-width: 768px){
 	.megan{
 		height: 75%;
 	}
 	.aboutMe{
 		margin-left: 15px;
 		max-width: 64%;
+	}
+}
+@media screen and (min-width: 910px) {
+	.megan {
+		margin: 0 auto;
 	}
 }
