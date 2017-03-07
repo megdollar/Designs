@@ -20,7 +20,9 @@
     	list-style: none;
     	text-align: left;
     }
-
+    .skillsLabel{
+    	color: #ff3b3f;
+    }
     .skillsNav {
     	list-style: none;
     	padding: 0;
@@ -30,7 +32,13 @@
     	list-style-position: inside;
     }
 
-    
+    h3 {
+    	color: #ff3b3f;
+    }
+   	
+   	.list-group-item {
+   		border-color: #caebf2;
+   	}
 
         /* On small screens, set height to 'auto' for sidenav and grid */
     }

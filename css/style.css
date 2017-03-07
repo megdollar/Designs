@@ -37,7 +37,10 @@ a:active {
 }
 .introduction{
 	color: #ff3b3f;
-	font-size: 16px;
+}
+
+.contentIntro {
+	font-size: 1em;
 }
 .templateDesign {
 	margin-top: 0;
