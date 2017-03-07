@@ -16,17 +16,14 @@
     }
 
 
-    .sidenavContact {
+    .sidenavContact, .skillsNav {
     	list-style: none;
-    	text-align: left;
+    	padding: 0;
     }
     .skillsLabel{
     	color: #ff3b3f;
     }
-    .skillsNav {
-    	list-style: none;
-    	padding: 0;
-    }
+   
 
     .listItem{
     	list-style-position: inside;
@@ -41,14 +38,27 @@
    	}
 
         /* On small screens, set height to 'auto' for sidenav and grid */
-    }
-   
-    }
     
     @media screen and (max-width: 767px) {
       .sidenav {
         height: auto;
         padding: 15px;
       }
-      .row.content {height:auto;} 
+      .row.content {
+      	height:auto;
+      } 
+   
+
+      .skillsNav li, .sidenavContact li{
+      	display: inline;
+      	padding-right: 16px;
+      }
+     
+          .footer {
+    	clear: both;
     }
+
+    }
+
+
+
