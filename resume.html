@@ -41,13 +41,18 @@
   
 <div class="container-fluid text-center">    
   <div class="row content">
-    <div class="col-sm-2 sidenav">
+    <div class="col-sm-2 sidenav navMenu">
       <p><a href="#education">Education</a></p>
       <p><a href="#projects">Projects</a></p>
       <p><a href="#workExperience">Work Experience</a></p>
     </div>
 
     <div class="col-sm-7 text-left"> 
+      <div class="container-fluid bg-3 text-center" id="mainContent" class="main">
+        <div class="row">
+         <h2 class="text-center introduction">Resume</h2>
+        </div>
+      </div>
 
       <h3 id="education"><i class="glyphicon glyphicon-education"> Education</i></h3>
       <h5>Udacity</h5>
@@ -130,17 +135,17 @@
 
 
 
-    <div class="col-sm-3 sidenav">
+    <div class="col-sm-3 sidenav navAbout">
       <img class="img-thumbnail" src="img/IMG_1468.jpg" alt="megan" height="150" width="150">
         <h3>Megan Dollar</h3>
-        <p>Front-End Web Developer</p>
+        <p><em>Front-End Web Developer</em></p>
         <br>
         <div class="navContact">
-          <ul class="sidenavContact">
+          <ul class="sidenavContact text-center">
             <li><a href="tel:4044094677"><i class="glyphicon glyphicon-earphone"></i> 404 409 4677</a> </li>
-            <li><a href="mailto:megdollar@gmail.com"><i class="glyphicon glyphicon-envelope"></i> megdollar@gmail.com</a></li>
-            <li><a href="https://www.linkedin.com/in/megan-dollar/"><i class="fa fa-linkedin"></i> linkedin.com/in/megan-dollar</a></li>
-          <li><a href="https://github.com/megdollar"><i class="fa fa-github"></i> github.com/megdollar</a></li>
+            <li><a href="mailto:megdollar@gmail.com"><i class="glyphicon glyphicon-envelope"></i> Email Me</a></li>
+            <li><a href="https://www.linkedin.com/in/megan-dollar/"><i class="fa fa-linkedin"></i> Linkedin</a></li>
+          <li><a href="https://github.com/megdollar"><i class="fa fa-github"></i> Github</a></li>
         </ul>
         </div>
         <br>
@@ -187,9 +192,15 @@
     </div>
 </footer>
 
-
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/resume.js"></script>
+
+        <script> var $iW = $(window).innerWidth();
+
+          if ($iW <= 767) {
+          $('.navAbout').insertBefore('.navMenu');
+          } 
+          </script>
   </body>
 </html>
