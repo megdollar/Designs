@@ -1,0 +1,70 @@
+    /* Set height of the grid so .sidenav can be 100% (adjust as needed) */
+    .row.content {
+    	height: 1450px
+    }
+    
+    /* Set gray background color and 100% height */
+    .sidenav {
+      padding-top: 20px;
+      background-color: #efefef;
+      height: 100%;
+      margin: 0;
+    }
+
+    .navbar {
+    	margin-bottom: 0;
+    }
+
+
+    .sidenavContact, .skillsNav {
+    	list-style: none;
+    	padding: 0;
+    }
+    .skillsLabel{
+    	color: #ff3b3f;
+    }
+   
+
+    .listItem{
+    	list-style-position: inside;
+    }
+
+    h3 {
+    	color: #ff3b3f;
+    }
+   	
+   	.list-group-item {
+   		border-color: #caebf2;
+   	}
+
+        /* On small screens, set height to 'auto' for sidenav and grid */
+    
+    @media screen and (max-width: 767px) {
+      .sidenav {
+        height: auto;
+        padding: 15px;
+      }
+      .row.content {
+      	height:auto;
+      } 
+
+      .img-thumbnail{
+      	height: 100px;
+      	width: 80px;
+      	border-radius: 150px;
+  
+
+      }
+      .skillsNav li, .sidenavContact li, .navMenu p{
+      	display: inline;
+      	padding-right: 16px;
+      }
+     
+          .footer {
+    	clear: both;
+    }
+
+    }
+
+
+
