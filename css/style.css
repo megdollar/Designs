@@ -74,8 +74,8 @@ footer a {
 @media screen and (max-width: 767px){
 	.megan{
 		margin: 0 auto;
-		width: 60%;
-		height: 75%;
+		width: 55%;
+		height: 70%;
 	}
 	.aboutMe {
 		margin-top: 15px;
@@ -90,6 +90,11 @@ footer a {
 }
 
 @media screen and (min-width: 768px){
+	.megan {
+		margin: 0 auto;
+		width: 65%;
+		height: 80%;
+	}
 
 	.aboutMe{
 		margin-left: 15px;
