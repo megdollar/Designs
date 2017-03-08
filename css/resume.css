@@ -47,9 +47,15 @@
       .row.content {
       	height:auto;
       } 
-   
 
-      .skillsNav li, .sidenavContact li{
+      .img-thumbnail{
+      	height: 100px;
+      	width: 80px;
+      	border-radius: 150px;
+  
+
+      }
+      .skillsNav li, .sidenavContact li, .navMenu p{
       	display: inline;
       	padding-right: 16px;
       }
