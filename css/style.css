@@ -25,6 +25,8 @@ a:active {
 
 #mainContent {
 	margin: 15px;
+	border: 2px solid #caebf2;
+	border-radius: 5px;
 	background:url(texture.jpg) no-repeat center center fixed;
 	-webkit-background-size: cover;
 	  -moz-background-size: cover;
@@ -37,11 +39,6 @@ a:active {
 
 }
 
-.aboutMe {
-	border: 3px solid #caebf2;
-	border-radius: 5px;
-
-}
 .introduction{
 	color: #ff3b3f;
 }
@@ -94,6 +91,7 @@ footer a {
 		margin-left: 15px;
 		max-width: 64%;
 	}
+
 }
 @media screen and (min-width: 910px) {
 	.megan {
