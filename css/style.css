@@ -68,11 +68,14 @@ footer {
 }
 
 footer a {
-	padding-right: 10px;
+	padding-right: 8px;
 }
+
 @media screen and (max-width: 767px){
 	.megan{
 		margin: 0 auto;
+		width: 60%;
+		height: 75%;
 	}
 	.aboutMe {
 		margin-top: 15px;
@@ -81,12 +84,13 @@ footer a {
 	.footerCopy {
 		display: none;
 	}
+	footer a {
+		padding-right: 2px;
+	}
 }
 
 @media screen and (min-width: 768px){
-	.megan{
-		height: 75%;
-	}
+
 	.aboutMe{
 		margin-left: 15px;
 		max-width: 64%;
