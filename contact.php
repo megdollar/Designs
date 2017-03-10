@@ -77,7 +77,7 @@ if (!$errName && !$errEmail && !$errMessage && !$errHuman) {
         <li><a href="index.html">Home</a></li>
         <li><a href="resume.html">Resume</a></li>
         <li><a href="about.html">About</a></li>
-        <li class="active"><a href="contact.html">Contact</a></li>
+        <li class="active"><a href="contact.php">Contact</a></li>
       </ul>
     </div>
   </div>
