@@ -9,11 +9,9 @@ a {
 a:hover {
 	color: #ff3b3f;
 }
-a:active {
-	background-color: #efefef;
-}
 
 .jumbotron{
+	background-color: white;
 	border-radius: 5px;
 	margin-bottom: 20px;
 
@@ -25,13 +23,8 @@ a:active {
 
 #mainContent {
 	margin: 15px;
-	border: 2px solid #caebf2;
-	border-radius: 5px;
-	background:url(texture.jpg) no-repeat center center fixed;
-	-webkit-background-size: cover;
-	  -moz-background-size: cover;
-	  -o-background-size: cover;
-	  background-size: cover;
+
+
 
 }
 .mainImage {
@@ -39,22 +32,25 @@ a:active {
 
 }
 
-.introduction{
-	color: #ff3b3f;
-}
 
+.introduction {
+	text-align: left;
+	line-height: 1.2;
+}
 .contentIntro {
+	line-height: 1.4;
 	font-size: 1em;
-	font-weight: 500;
+	text-align: left;
+	max-width: 600px;
 
 }
 .templateDesign {
 	margin-top: 0;
 	padding-top: 20px;
 	padding-bottom: 20px;
-	background-color: #caebf2;
-	border-radius: 5px;
-	color: #a9a9a9;
+	/*background-color: #caebf2;
+	border-radius: 5px;*/
+
 }
 .tempName {
 	color: #ff3b3f;
@@ -97,7 +93,6 @@ footer a {
 	}
 
 	.aboutMe{
-		margin-left: 15px;
 		max-width: 64%;
 	}
 
