@@ -1,3 +1,6 @@
+
+
+
 .navbar {
 	background-color: #caebf2;
 	margin-bottom: 5px;
@@ -7,7 +10,7 @@ a {
 	color: #333;
 }
 a:hover {
-	color: #ff3b3f;
+	color: #696969;
 }
 
 .jumbotron{
@@ -16,25 +19,29 @@ a:hover {
 	margin-bottom: 20px;
 
 }
+h1, h2, h3, h4, h5 {
+	font-family: 'Josefin Slab', serif;
+}
+p, li, a {
+	font-family: 'Raleway', sans-serif;
 
+}
 .tagline {
-	color: #ff3b3f;
+	color: #696969;
 }
 
 #mainContent {
 	margin: 15px;
 
-
-
 }
-.mainImage {
+/*.mainImage {
 	padding: 0;
 
-}
+}*/
 
 
 .introduction {
-	text-align: left;
+	text-align: center;
 	line-height: 1.2;
 }
 .contentIntro {
@@ -48,12 +55,11 @@ a:hover {
 	margin-top: 0;
 	padding-top: 20px;
 	padding-bottom: 20px;
-	/*background-color: #caebf2;
-	border-radius: 5px;*/
+
 
 }
 .tempName {
-	color: #ff3b3f;
+	color: #696969;
 }
 
 footer {
@@ -61,6 +67,7 @@ footer {
 	padding-top: 20px;
 	padding-bottom: 15px;
 	border-radius: 5px;
+	
 }
 
 footer a {
@@ -68,7 +75,7 @@ footer a {
 }
 
 @media screen and (max-width: 767px){
-	.megan{
+	/*.megan{
 		margin: 0 auto;
 		width: 55%;
 		height: 70%;
@@ -76,7 +83,7 @@ footer a {
 	.aboutMe {
 		margin-top: 15px;
 		max-height: 350px;
-	}
+	}*/
 	.footerCopy {
 		display: none;
 	}
@@ -85,7 +92,7 @@ footer a {
 	}
 }
 
-@media screen and (min-width: 768px){
+/*@media screen and (min-width: 768px){
 	.megan {
 		margin: 0 auto;
 		width: 65%;
@@ -96,9 +103,9 @@ footer a {
 		max-width: 64%;
 	}
 
-}
-@media screen and (min-width: 910px) {
+}*/
+/*@media screen and (min-width: 910px) {
 	.megan {
 		margin: 0 auto;
 	}
-}
+}*/
