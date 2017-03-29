@@ -1,3 +1,15 @@
 .introduction {
 	text-align: center;
 }
+@media screen and (max-width: 769px){
+	.img-responsive {
+		height: 250px;
+		max-width: 250px;
+		margin: 0 auto;
+	}
+}
+@media screen and (min-width: 770px){
+	.img-responsive {
+		height: 250px;
+	}
+}
