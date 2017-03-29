@@ -1,6 +1,9 @@
 .introduction {
 	text-align: center;
 }
+img {
+	margin-bottom: 16px;
+}
 @media screen and (max-width: 769px){
 	.img-responsive {
 		height: 250px;
