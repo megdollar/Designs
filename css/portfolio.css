@@ -1,9 +1,12 @@
 .introduction {
 	text-align: center;
 }
+
 img {
 	margin-bottom: 16px;
-}
+	padding: 5px;
+	border: 1px solid #d3d3d3;
+	}
 @media screen and (max-width: 769px){
 	.img-responsive {
 		height: 250px;
