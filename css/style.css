@@ -32,10 +32,6 @@ p, li, a {
 	margin: 15px;
 
 }
-/*.mainImage {
-	padding: 0;
-
-}*/
 
 
 .introduction {
@@ -61,9 +57,10 @@ p, li, a {
 
 .tempName {
 	color: #696969;
-    font-size: 1px; 
+    font-size: 18px; 
     line-height: 1.6;
 }
+
 .description {
     margin: 15 5 15 5;
     font-size: 16px;
