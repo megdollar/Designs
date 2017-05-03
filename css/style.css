@@ -1,6 +1,4 @@
 
-
-
 .navbar {
 	background-color: #caebf2;
 	margin-bottom: 5px;
@@ -43,6 +41,9 @@ p, li, a {
 .introduction {
 	text-align: center;
 	line-height: 1.2;
+    font-size: 30px;
+    margin: 8%;
+
 }
 .contentIntro {
 	line-height: 1.4;
@@ -55,11 +56,18 @@ p, li, a {
 	margin-top: 0;
 	padding-top: 20px;
 	padding-bottom: 20px;
-
-
+    font-size: 30px;
 }
+
 .tempName {
 	color: #696969;
+    font-size: 20px; 
+    line-height: 1.6;
+}
+.description {
+    margin: 15 5 15 5;
+    font-size: 16px;
+    line-height: 1.6;
 }
 
 footer {
@@ -67,6 +75,7 @@ footer {
 	padding-top: 20px;
 	padding-bottom: 15px;
 	border-radius: 5px;
+    margin-bottom: 0;
 	
 }
 
@@ -84,6 +93,9 @@ footer a {
 		margin-top: 15px;
 		max-height: 350px;
 	}*/
+    .introduction {
+        margin: 3%;
+    }
 	.footerCopy {
 		display: none;
 	}
