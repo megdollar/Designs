@@ -1,4 +1,8 @@
 /* You can add global styles to this file, and also import other style files */
+.navbar {
+  background-color: #caebf2;
+  margin-bottom: 5px;
+}
 html {
   position: relative;
   min-height: 100%;
@@ -67,3 +71,56 @@ p, li {
     font-size: 16px;
     line-height: 1.5;
 }
+/*@media screen and (min-width: 768px){
+ 	.megan {
+ 		margin: 0 auto;
+ 		width: 65%;
+ 		height: 80%;
+ 	}
+ 
+ .aboutMe{
+   max-width: 64%;
+ }
+ 
+ }*/
+ /*@media screen and (min-width: 910px) {
+ 	.megan {
+ 		margin: 0 auto;
+ 	}
+ }*/
+
+ footer {
+   background-color: #caebf2;
+   padding-top: 20px;
+   padding-bottom: 15px;
+   border-radius: 5px;
+ 	
+ }
+ 
+ footer a {
+  padding-right: 8px;
+ }
+ 
+ @media screen and (max-width: 767px){
+ 	/*.megan{
+ 		margin: 0 auto;
+ 		width: 55%;
+ 		height: 70%;
+ 	}
+ 	.aboutMe {
+ 		margin-top: 15px;
+ 		max-height: 350px;
+ 	}*/
+.footerCopy {
+  display: none;
+ }
+footer a {
+ padding-right: 2px;
+ }
+
+ -a {
+ -	text-decoration: none;
+ -	color: #333;
+ -}
+ -a:hover {
+ -	color: #696969;
