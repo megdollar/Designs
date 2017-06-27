@@ -8,8 +8,12 @@
     margin-right: 5%;
     margin-left: 5%
 }
+.row {
+	margin-top: 30px;
+}
 
-img {
+
+.clip {
 	margin-bottom: 16px;
 	padding: 5px;
 	border: 1px solid #d3d3d3;
@@ -17,7 +21,7 @@ img {
 
 
 @media screen and (max-width: 769px){
-	.img-responsive {
+	.clip {
 		height: 250px;
 		max-width: 250px;
 		margin: 0 auto;
@@ -27,7 +31,7 @@ img {
     }
 }
 @media screen and (min-width: 770px){
-	.img-responsive {
+	.clip {
 		height: 250px;
 	}
 }
