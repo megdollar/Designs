@@ -3,19 +3,20 @@
   background-color: #caebf2;
   margin-bottom: 5px;
 }
-
-
-body {
-  padding-top: 5rem;
-  margin-bottom: 60px;
+a {
+ text-decoration: none;
+ color: #333;
+}
+a:hover {
+ color: #696969;
 }
 
 .jumbotron{
 	background-color: white;
 	border-radius: 5px;
 	margin-bottom: 20px;
-
 }
+
 h1, h2, h3, h4, h5 {
 	font-family: 'Josefin Slab', serif;
 }
@@ -38,8 +39,8 @@ p, li, a {
 }
 
 .introduction {
-	text-align: center;
-	line-height: 1.2;
+    text-align: center;
+    line-height: 1.2;
     font-size: 30px;
     margin: 8%;
 
@@ -55,11 +56,11 @@ p, li, a {
 	margin-top: 0;
 	padding-top: 20px;
 	padding-bottom: 20px;
-    font-size: 30px;
+        font-size: 30px;
 }
 
 .tempName {
-	color: #696969;
+    color: #696969;
     line-height: 1.8;
 }
 
@@ -68,6 +69,18 @@ p, li, a {
     font-size: 16px;
     line-height: 1.5;
 }
+ footer {
+   background-color: #caebf2;
+   padding-top: 20px;
+   padding-bottom: 15px;
+   border-radius: 5px;
+ 	
+ }
+ 
+ footer a {
+  padding-right: 8px;
+ }
+
 /*@media screen and (min-width: 768px){
  	.megan {
  		margin: 0 auto;
@@ -86,17 +99,7 @@ p, li, a {
  	}
  }*/
 
- footer {
-   background-color: #caebf2;
-   padding-top: 20px;
-   padding-bottom: 15px;
-   border-radius: 5px;
- 	
- }
- 
- footer a {
-  padding-right: 8px;
- }
+
  
  @media screen and (max-width: 767px){
  	/*.megan{
@@ -115,10 +118,4 @@ footer a {
  padding-right: 2px;
  }
 
- a {
- 	text-decoration: none;
- 	color: #333;
- }
- a:hover {
- 	color: #696969;
-	 }
+
