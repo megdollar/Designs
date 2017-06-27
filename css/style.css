@@ -1,16 +1,12 @@
-
-
-
-.navbar {
-	background-color: #caebf2;
-	margin-bottom: 5px;
+/* You can add global styles to this file, and also import other style files */
+html {
+  position: relative;
+  min-height: 100%;
 }
-a {
-	text-decoration: none;
-	color: #333;
-}
-a:hover {
-	color: #696969;
+
+body {
+  padding-top: 5rem;
+  margin-bottom: 60px;
 }
 
 .jumbotron{
@@ -22,10 +18,12 @@ a:hover {
 h1, h2, h3, h4, h5 {
 	font-family: 'Josefin Slab', serif;
 }
-p, li, a {
+
+p, li {
 	font-family: 'Raleway', sans-serif;
 
 }
+
 .tagline {
 	color: #696969;
 }
@@ -34,15 +32,16 @@ p, li, a {
 	margin: 15px;
 
 }
-/*.mainImage {
-	padding: 0;
-
-}*/
-
+.mainPhoto {
+	margin: 0 auto;
+}
 
 .introduction {
 	text-align: center;
 	line-height: 1.2;
+    font-size: 30px;
+    margin: 8%;
+
 }
 .contentIntro {
 	line-height: 1.4;
@@ -55,57 +54,16 @@ p, li, a {
 	margin-top: 0;
 	padding-top: 20px;
 	padding-bottom: 20px;
-
-
+    font-size: 30px;
 }
+
 .tempName {
 	color: #696969;
+    line-height: 1.8;
 }
 
-footer {
-	background-color: #caebf2;
-	padding-top: 20px;
-	padding-bottom: 15px;
-	border-radius: 5px;
-	
+.description {
+    margin: 15 5 15 5;
+    font-size: 16px;
+    line-height: 1.5;
 }
-
-footer a {
-	padding-right: 8px;
-}
-
-@media screen and (max-width: 767px){
-	/*.megan{
-		margin: 0 auto;
-		width: 55%;
-		height: 70%;
-	}
-	.aboutMe {
-		margin-top: 15px;
-		max-height: 350px;
-	}*/
-	.footerCopy {
-		display: none;
-	}
-	footer a {
-		padding-right: 2px;
-	}
-}
-
-/*@media screen and (min-width: 768px){
-	.megan {
-		margin: 0 auto;
-		width: 65%;
-		height: 80%;
-	}
-
-	.aboutMe{
-		max-width: 64%;
-	}
-
-}*/
-/*@media screen and (min-width: 910px) {
-	.megan {
-		margin: 0 auto;
-	}
-}*/
