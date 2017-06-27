@@ -3,10 +3,7 @@
   background-color: #caebf2;
   margin-bottom: 5px;
 }
-html {
-  position: relative;
-  min-height: 100%;
-}
+
 
 body {
   padding-top: 5rem;
@@ -23,7 +20,7 @@ h1, h2, h3, h4, h5 {
 	font-family: 'Josefin Slab', serif;
 }
 
-p, li {
+p, li, a {
 	font-family: 'Raleway', sans-serif;
 
 }
@@ -118,9 +115,9 @@ footer a {
  padding-right: 2px;
  }
 
- -a {
- -	text-decoration: none;
- -	color: #333;
- -}
- -a:hover {
- -	color: #696969;
+ a {
+ 	text-decoration: none;
+ 	color: #333;
+ }
+ a:hover {
+ 	color: #696969;
